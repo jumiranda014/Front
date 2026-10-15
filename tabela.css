@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    background-image: url("fundo.jpg.png");
+}
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar {
+    width: 250px;
+    background-color: #04174d;
+    color: white;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.menu {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.menu-item {
+    padding: 15px;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.menu-item:hover {
+    background-color: #0b286f;
+}
+.menu-item.active {
+    background-color: white;
+    color: #04174d;
+}
+.user {
+    margin-top: auto;
+    padding: 18px 10px 5px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+table {
+    width: 900px;
+    border-collapse: collapse;
+    background-color: white;
+}
+thead {
+    background-color: #04174d;
+    color: white;
+}
+th {
+    padding: 15px;
+    text-align: left;
+}
+td {
+    padding: 15px;
+}
+tbody tr:hover {
+    background-color: #f5f7fb;
+}
+tfoot {
+    background-color: #f0f2f6;
+}
+a button {
+    width: 150px;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    background-color: #04174d;
+    color: white;
+    cursor: pointer;
+}
+
+a button:hover {
+    background-color: #0b286f;
+}
